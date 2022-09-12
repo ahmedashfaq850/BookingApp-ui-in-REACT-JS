@@ -1,0 +1,45 @@
+.ratinglist-container{
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.ratinglist-img{
+  width: 240px;
+  height: 240px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.ratinglist-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ratinglist-tile p{
+  margin-top: 5px;
+}
+
+.ratinglist-tile h4{
+  margin-top: 5px;
+}
+
+.rating-row{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating-row h4{
+  background-color: #003580;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}

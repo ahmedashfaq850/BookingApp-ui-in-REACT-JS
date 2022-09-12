@@ -1,0 +1,199 @@
+.header{
+    width: 100%;
+    background-color: #003580;
+    height: 300px;
+    
+}
+
+
+.header-container{
+    width: 100%;
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.icons{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .icon{
+    padding: 10px;
+    color: whitesmoke;
+    margin: 10px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.icons .active{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.icons .icon span{
+    margin-left: 10px;
+}
+
+.header-content{
+    text-align: center;
+    padding: 20px;
+}
+
+.header-content h2{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.header-content p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.header-content span {
+    font-weight: bold;
+}
+
+.header-content .header-btn{
+    margin: 15px;
+    padding: 15px 20px;
+    background-color: #0071c2;
+    border: none;
+    color:whitesmoke;
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+}
+
+
+.header-btn:hover{
+    transform: scale(0.98);
+}
+
+
+.search{
+    width: 100%;
+    max-width: 1024px;
+    background-color: whitesmoke;
+    border: 3px solid #FEBB02;
+    border-radius: 5px;
+    padding: 15px;
+    position: absolute;
+    top: 270px;
+}
+
+
+
+.search .options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: lightgray;
+}
+
+.search .options span{
+    margin-left: 10px;
+}
+
+.search .options .text-field input{
+    border: none;
+    outline: none;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.search .options .search-btn{
+    background-color: #0071c2;
+    color:whitesmoke;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.date-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date{
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    z-index: 2;
+}
+
+.date::focus{
+    border-color: red;
+}
+
+.person-option{
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    color: gray;
+    padding: 10px;
+    box-shadow: 3px 9px 17px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 9px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 9px 17px -1px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.person-option .optionItem{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person-option .optionItem span{
+    margin-right: 20px;
+    color: gray;
+}
+
+.person-option .optionItem .opt-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.person-option .optionItem .opt-val{
+    text-align: center;
+    color: gray;
+    align-items: center;
+}
+
+.person-option .optionItem .optionCounterbtn{
+    padding: 5px 20px;
+    border: 1px solid #0071c2;
+    outline: none;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: gray;
+    font-size: 20px;
+}
+
+.optionItem button:disabled,
+button[disabled]{
+    cursor: not-allowed;
+    background-color: red;
+}
+
+.optionCounterbtn:disabled{
+    cursor: not-allowed;
+}
+
+.person-field span{
+    color: black;
+}
